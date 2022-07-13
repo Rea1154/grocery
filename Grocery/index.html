@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <script defer src="app.js"></script>
+    <title>Grocery</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo-container">
+        <a class="logo-link" href="#">
+          <i class="logo fas fa-shopping-basket"></i>
+          Groco</a
+        >
+      </div>
+
+      <nav>
+        <ul class="nav-ul">
+          <li><a class="nav-link" href="#">Home</a></li>
+          <li><a class="nav-link" href="#Feature">Feature</a></li>
+          <li><a class="nav-link" href="#Product">Product</a></li>
+          <li><a class="nav-link" href="#Categories">Categories</a></li>
+          <li><a class="nav-link" href="#Review">Review</a></li>
+          <li><a class="nav-link" href="#Blogs">Blogs</a></li>
+        </ul>
+
+        <ul class="mobil-ul">
+          <li class="mobil-li"><a class="nav-link-mobil" href="#">Home</a></li>
+          <li class="mobil-li">
+            <a class="nav-link-mobil" href="#Feature">Feature</a>
+          </li>
+          <li class="mobil-li">
+            <a class="nav-link-mobil" href="#Product">Product</a>
+          </li>
+          <li class="mobil-li">
+            <a class="nav-link-mobil" href="#Categories">Categories</a>
+          </li>
+          <li class="mobil-li">
+            <a class="nav-link-mobil" href="#Review">Review</a>
+          </li>
+          <li class="mobil-li">
+            <a class="nav-link-mobil" href="#Blogs">Blogs</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="nav-btns">
+        <div class="icons mobil">
+          <i class="icon fas fa-bars"></i>
+        </div>
+
+        <div class="icons search">
+          <i class="icon fas fa-search"></i>
+        </div>
+
+        <div class="icons cart">
+          <i class="icon fas fa-shopping-cart"></i>
+        </div>
+
+        <div class="icons user">
+          <i class="icon fas fa-user"></i>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="hero-container">
+          <h1 class="hero-h1">
+            Fresh And <span>Organic</span> Products For Your
+          </h1>
+          <p class="hero-p">
+            Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Aliquam
+            <br />
+            Libero Nostrum Veniam Facere Tempore Nisi.
+          </p>
+          <button class="btn">Shop Now</button>
+        </div>
+      </section>
+
+      <section id="Feature" class="features">
+        <h2>Our <span>Features</span></h2>
+
+        <div class="card-container">
+          <div class="features-card">
+            <div class="card-border">
+              <img src="imgs/feature-img-1.png" alt="" />
+              <h3 class="features-h3">Fresh And Organic</h3>
+              <p class="features-p">
+                Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit.
+                Deserunt.
+              </p>
+              <button class="btn">Read More</button>
+            </div>
+          </div>
+
+          <div class="features-card">
+            <div class="card-border">
+              <img src="imgs/feature-img-2.png" alt="" />
+              <h3 class="features-h3">Fresh And Organic</h3>
+              <p class="features-p">
+                Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit.
+                Deserunt.
+              </p>
+              <button class="btn">Read More</button>
+            </div>
+          </div>
+
+          <div class="features-card">
+            <div class="card-border">
+              <img src="imgs/feature-img-3.png" alt="" />
+              <h3 class="features-h3">Fresh And Organic</h3>
+              <p class="features-p">
+                Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit.
+                Deserunt.
+              </p>
+              <button class="btn">Read More</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="product">
+        <h2 class="product-h2">Our <span>Products</span></h2>
+
+        <div class="slider-container swiper">
+          <div class="slide-content">
+            <div class="slider-inner swiper-wrapper">
+              <div class="fruit-card swiper-slide">
+                <img class="fruit-img" src="imgs/product-1.png" alt="" />
+                <h3 class="fruit-h3">Orange</h3>
+                <span class="fruit-span">$9</span>
+                <div class="stars">
+                  <i class="star fas fa-star"></i>
+                  <i class="star fas fa-star"></i>
+                  <i class="star fas fa-star"></i>
+                  <i class="star fas fa-star"></i>
+                  <i class="star fas fa-star"></i>
+                </div>
+                <button class="btn add-to">Add To Cart</button>
+              </div>
+
+              <div class="fruit-card swiper-slide">
+                <img class="fruit-img" src="imgs/product-2.png" alt="" />
+                <h3 class="fruit-h3">Onion</h3>
+                <span class="fruit-span">$9</span>
+                <div class="stars">
+                  <i class="star fas fa-star"></i>
+                  <i class="star fas fa-star"></i>
+                  <i class="star fas fa-star"></i>
+                  <i class="star fas fa-star"></i>
+                  <i class="star fas fa-star"></i>
+                </div>
+                <button class="btn add-to">Add To Cart</button>
+              </div>
+
+              <div class="fruit-card swiper-slide">
+                <img class="fruit-img" src="imgs/product-3.png" alt="" />
+                <h3 class="fruit-h3">Meat</h3>
+                <span class="fruit-span">$9</span>
+                <div class="stars">
+                  <i class="star fas fa-star"></i>
+                  <i class="star fas fa-star"></i>
+                  <i class="star fas fa-star"></i>
+                  <i class="star fas fa-star"></i>
+                  <i class="star fas fa-star"></i>
+                </div>
+                <button class="btn add-to">Add To Cart</button>
+              </div>
+
+              <div class="fruit-card swiper-slide">
+                <img class="fruit-img" src="imgs/product-4.png" alt="" />
+                <h3 class="fruit-h3">Cabbage</h3>
+                <span class="fruit-span">$9</span>
+                <div class="stars">
+                  <i class="star fas fa-star"></i>
+                  <i class="star fas fa-star"></i>
+                  <i class="star fas fa-star"></i>
+                  <i class="star fas fa-star"></i>
+                  <i class="star fas fa-star"></i>
+                </div>
+                <button class="btn add-to">Add To Cart</button>
+              </div>
+
+              <div class="fruit-card swiper-slide">
+                <img class="fruit-img" src="imgs/product-5.png" alt="" />
+                <h3 class="fruit-h3">Potato</h3>
+                <span class="fruit-span">$9</span>
+                <div class="stars">
+                  <i class="star fas fa-star"></i>
+                  <i class="star fas fa-star"></i>
+                  <i class="star fas fa-star"></i>
+                  <i class="star fas fa-star"></i>
+                  <i class="star fas fa-star"></i>
+                </div>
+                <button class="btn add-to">Add To Cart</button>
+              </div>
+
+              <div class="fruit-card swiper-slide">
+                <img class="fruit-img" src="imgs/product-6.png" alt="" />
+                <h3 class="fruit-h3">Avocado</h3>
+                <span class="fruit-span">$9</span>
+                <div class="stars">
+                  <i class="star fas fa-star"></i>
+                  <i class="star fas fa-star"></i>
+                  <i class="star fas fa-star"></i>
+                  <i class="star fas fa-star"></i>
+                  <i class="star fas fa-star"></i>
+                </div>
+                <button class="btn add-to">Add To Cart</button>
+              </div>
+
+              <div class="fruit-card swiper-slide">
+                <img class="fruit-img" src="imgs/product-7.png" alt="" />
+                <h3 class="fruit-h3">Carrot</h3>
+                <span class="fruit-span">$9</span>
+                <div class="stars">
+                  <i class="star fas fa-star"></i>
+                  <i class="star fas fa-star"></i>
+                  <i class="star fas fa-star"></i>
+                  <i class="star fas fa-star"></i>
+                  <i class="star fas fa-star"></i>
+                </div>
+                <button class="btn add-to">Add To Cart</button>
+              </div>
+
+              <div class="fruit-card swiper-slide">
+                <img class="fruit-img" src="imgs/product-8.png" alt="" />
+                <h3 class="fruit-h3">Lemon</h3>
+                <span class="fruit-span">$9</span>
+                <div class="stars">
+                  <i class="star fas fa-star"></i>
+                  <i class="star fas fa-star"></i>
+                  <i class="star fas fa-star"></i>
+                  <i class="star fas fa-star"></i>
+                  <i class="star fas fa-star"></i>
+                </div>
+                <button class="btn add-to">Add To Cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="Categories" class="categories">
+        <h2>Our <span>Categories</span></h2>
+
+        <div class="card-container grid-3">
+          <div class="features-card valami">
+            <div class="card-border">
+              <img src="imgs/cat-1.png" alt="" />
+              <h3 class="features-h3">Vegetables</h3>
+              <p class="features-p">Upto 45% Off</p>
+              <button class="btn">Shop Now</button>
+            </div>
+          </div>
+
+          <div class="features-card valami">
+            <div class="card-border">
+              <img src="imgs/cat-2.png" alt="" />
+              <h3 class="features-h3">Fresh Fruits</h3>
+              <p class="features-p">Upto 45% Off</p>
+              <button class="btn">Shop Now</button>
+            </div>
+          </div>
+
+          <div class="features-card valami">
+            <div class="card-border">
+              <img src="imgs/cat-3.png" alt="" />
+              <h3 class="features-h3">Dairy Products</h3>
+              <p class="features-p">Upto 45% Off</p>
+              <button class="btn">Shop Now</button>
+            </div>
+          </div>
+
+          <div class="features-card valami">
+            <div class="card-border">
+              <img src="imgs/cat-4.png" alt="" />
+              <h3 class="features-h3">Fresh Meat</h3>
+              <p class="features-p">Upto 45% Off</p>
+              <button class="btn">Shop Now</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="Review" class="review">
+        <h2>Costumer's<span>Reviwe</span></h2>
+
+        <div class="slider-container swiper">
+          <div class="slide-content">
+            <div class="swiper-wrapper">
+              <div class="slider-item swiper-slide">
+                <div class="slider-item-border">
+                  <img class="review-img" src="imgs/pic-1.png" alt="" />
+                  <p class="review-p">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Asperiores culpa ea necessitatibus amet velit impedit,
+                    voluptatibus dolorum ipsa minima distinctio.
+                  </p>
+                  <span class="review-span">John Deo</span>
+                  <div class="review-stars">
+                    <i class="star fas fa-star"></i>
+                    <i class="star fas fa-star"></i>
+                    <i class="star fas fa-star"></i>
+                    <i class="star fas fa-star"></i>
+                    <i class="star fas fa-star-half-alt"></i>
+                  </div>
+                </div>
+              </div>
+
+              <div class="slider-item swiper-slide">
+                <div class="slider-item-border">
+                  <img class="review-img" src="imgs/pic-2.png" alt="" />
+                  <p class="review-p">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Asperiores culpa ea necessitatibus amet velit impedit,
+                    voluptatibus dolorum ipsa minima distinctio.
+                  </p>
+                  <span class="review-span">John Deo</span>
+                  <div class="review-stars">
+                    <i class="star fas fa-star"></i>
+                    <i class="star fas fa-star"></i>
+                    <i class="star fas fa-star"></i>
+                    <i class="star fas fa-star"></i>
+                    <i class="star fas fa-star-half-alt"></i>
+                  </div>
+                </div>
+              </div>
+
+              <div class="slider-item swiper-slide">
+                <div class="slider-item-border">
+                  <img class="review-img" src="imgs/pic-3.png" alt="" />
+                  <p class="review-p">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Asperiores culpa ea necessitatibus amet velit impedit,
+                    voluptatibus dolorum ipsa minima distinctio.
+                  </p>
+                  <span class="review-span">John Deo</span>
+                  <div class="review-stars">
+                    <i class="star fas fa-star"></i>
+                    <i class="star fas fa-star"></i>
+                    <i class="star fas fa-star"></i>
+                    <i class="star fas fa-star"></i>
+                    <i class="star fas fa-star-half-alt"></i>
+                  </div>
+                </div>
+              </div>
+
+              <div class="slider-item swiper-slide">
+                <div class="slider-item-border">
+                  <img class="review-img" src="imgs/pic-4.png" alt="" />
+                  <p class="review-p">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Asperiores culpa ea necessitatibus amet velit impedit,
+                    voluptatibus dolorum ipsa minima distinctio.
+                  </p>
+                  <span class="review-span">John Deo</span>
+                  <div class="review-stars">
+                    <i class="star fas fa-star"></i>
+                    <i class="star fas fa-star"></i>
+                    <i class="star fas fa-star"></i>
+                    <i class="star fas fa-star"></i>
+                    <i class="star fas fa-star-half-alt"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="Blogs" class="blogs">
+        <h2>Our<span>Blogs</span></h2>
+        <div class="blogs-cards">
+          <div class="blogs-card">
+            <div class="cardimg-container"></div>
+            <div class="card-span">
+              <span><i class="blogs-icon fas fa-user"></i>By User</span>
+              <span
+                ><i class="blogs-icon fas fa-calendar"></i>1st May, 2022</span
+              >
+            </div>
+            <h3 class="blogs-h3">Fresh And Organic Vegitables And Fruits</h3>
+            <p class="blogs-p">
+              Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Veniam,
+              Expedita.
+            </p>
+            <button class="btn blogs-btn">Read Me</button>
+          </div>
+
+          <div class="blogs-card">
+            <div class="cardimg-container cardimg2"></div>
+            <div class="card-span">
+              <span><i class="blogs-icon fas fa-user"></i>By User</span>
+              <span
+                ><i class="blogs-icon fas fa-calendar"></i>1st May, 2022</span
+              >
+            </div>
+            <h3 class="blogs-h3">Fresh And Organic Vegitables And Fruits</h3>
+            <p class="blogs-p">
+              Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Veniam,
+              Expedita.
+            </p>
+            <button class="btn blogs-btn">Read Me</button>
+          </div>
+
+          <div class="blogs-card">
+            <div class="cardimg-container cardimg3"></div>
+            <div class="card-span">
+              <span><i class="blogs-icon fas fa-user"></i>By User</span>
+              <span
+                ><i class="blogs-icon fas fa-calendar"></i>1st May, 2022</span
+              >
+            </div>
+            <h3 class="blogs-h3">Fresh And Organic Vegitables And Fruits</h3>
+            <p class="blogs-p">
+              Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Veniam,
+              Expedita.
+            </p>
+            <button class="btn blogs-btn">Read Me</button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-div">
+        <h4>Groco<i class="logo-footer fas fa-shopping-basket"></i></h4>
+        <p class="footer-p">
+          Lorem Ipsum Dolor, Sit Amet Consectetur Adipisicing Elit. Aliquam,
+          Saepe.
+        </p>
+        <div class="footer-btn">
+          <div class="icons search">
+            <i class="icon fab fa-facebook-f"></i>
+          </div>
+
+          <div class="icons search">
+            <i class="icon fab fa-twitter"></i>
+          </div>
+
+          <div class="icons search">
+            <i class="icon fab fa-instagram"></i>
+          </div>
+
+          <div class="icons search">
+            <i class="icon fab fa-linkedin"></i>
+          </div>
+        </div>
+      </div>
+      <div class="footer-div">
+        <h4>Contact Info</h4>
+        <p><i class="orange fas fa-phone"></i> +123-456-7890</p>
+        <p><i class="orange fas fa-phone"></i> +123-456-7890</p>
+        <p><i class="orange fas fa-envelope"></i>&nbsp; lorem@gmail.com</p>
+        <p>
+          <i class="orange fas fa-map-marker-alt"></i>&nbsp; &nbsp;Hungary,Bp
+          1154
+        </p>
+      </div>
+      <div class="footer-div">
+        <h4>Quick Links</h4>
+        <p><i class="orange fas fa-arrow-right"></i> Home</p>
+        <p><i class="orange fas fa-arrow-right"></i> Features</p>
+        <p><i class="orange fas fa-arrow-right"></i> Products</p>
+        <p><i class="orange fas fa-arrow-right"></i> Categories</p>
+        <p><i class="orange fas fa-arrow-right"></i> Review</p>
+        <p><i class="orange fas fa-arrow-right"></i> Blogs</p>
+      </div>
+      <div class="footer-div submit-div">
+        <h4>Newsletter</h4>
+        <p>Subscribe For Latest Updates</p>
+        <input type="email" placeholder="your email" class="email" />
+        <button class="btn footer-btn">Subcribe</button>
+        <img class="payment" src="imgs/payment.png" alt="" />
+      </div>
+    </footer>
+
+    <script src="swiper-bundle.min.js"></script>
+  </body>
+</html>
